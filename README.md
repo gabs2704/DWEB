@@ -2,8 +2,8 @@
 <p align="center">
 <img loading="lazy" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
 </p>
-Nesse depositório eu armazeno atividades feitas em sala!
-# :hammer: Tecnologias utilizadas!:computer:
+Nesse depositório eu armazeno atividades feitas em sala! <br>
+# Tecnologias utilizadas!:computer:
 
 - `HTML`
 - `VScode`
