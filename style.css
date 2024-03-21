@@ -1,0 +1,29 @@
+/*titulo*/
+h1 {
+    color: darkslategrey ;
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    color:darkslategrey;
+    font-size: 20px;
+    text-align: center;
+}
+#para1{
+    text-align: center;
+    font-size: 12px;
+    color:dimgrey;
+}
+.center{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+/*Colocando cor de fundo*/
+body{
+    background-color: rgb(255, 245, 231);
+}
+/*colocando gif*/
+body{
+    background-image: url("tartacrazy.webp")
+}
