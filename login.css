@@ -1,0 +1,55 @@
+h1 {
+    color: darkslategrey ;
+    font-size: 30px;
+    text-align:left;
+    margin:0;
+    padding:0;
+    outline:0;
+    font-family:Verdana;
+}
+p{
+    margin:0;
+    padding:0;
+    outline:0;
+    font-family:Verdana;
+}
+#nome{
+    font-family: Verdana;
+}
+#email{
+    font-family: Verdana;
+}
+#senha{
+    font-family: Verdana;
+}
+div{
+    background-color:rgba(10, 131, 131, 0.8);
+    font-family:Verdana;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+}
+h2{
+    color: aliceblue;
+}
+input{
+    padding: 15px;
+    border:none;
+    outline: none;
+    font-size: 15px;
+}
+button{
+    background-color: aliceblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:rgb(223, 240, 255);
+}
