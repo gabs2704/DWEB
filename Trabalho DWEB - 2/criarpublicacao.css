@@ -1,0 +1,81 @@
+body {
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #003366;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: #003366;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #003366;
+}
+
+.container input[type="file"] {
+    display: block;
+    margin: 20px 0;
+    align-content: center;
+}
+
+.container textarea {
+    width: calc(100% - 60px); 
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+}
+
+
+.container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #174361;
+}
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
