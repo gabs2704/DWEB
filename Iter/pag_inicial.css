@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    background-color: #ffffff;
+    color: #333;
+}
+nav {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+nav .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;  
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #66a3ff;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    background-color: #ffffff;
+    flex-wrap: wrap; 
+}
+.description-column, .search-column {
+    width: 45%;
+    margin-bottom: 30px; 
+}
+.description-column h2, .search-column h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+.description-column p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    justify-content: left;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-bottom: 5px;
+    color: #003366;
+}
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    padding: 10px;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover {
+    background-color: #66a3ff;
+}
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;  
+        padding: 20px;
+    }
+    .description-column, .search-column {
+        width: 100%;  
+    }
+    nav ul {
+        justify-content: center;  
+    }
+    nav ul li {
+        margin-left: 10px;
+        margin-bottom: 10px;  
+    }
+    nav {
+        padding: 10px 20px; 
+    }
+}
+@media (max-width: 480px) {
+    nav .logo h1 {
+        font-size: 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    form input, form button {
+        padding: 8px; 
+    }
+    footer {
+        padding: 15px 0;
+        font-size: 14px;  
+    }
+}

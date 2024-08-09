@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    height: 70px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+}
+header a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 20px;
+    display: flex;
+    padding: 15px 30px;
+}
+header {
+    background-color: #003366;
+    text-align: center ;
+    font-size: 50px;
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    text-decoration: none; 
+}
+p {
+    margin:0;
+    padding:0;
+    outline:0;
+    font-family:'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+}
+#nome {
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    border-radius: 15px;
+    padding:8px;
+}
+#tel {
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    border-radius: 15px;
+    padding:8px;
+}
+#email {
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    border-radius: 15px;
+    padding:8px;
+}
+#senha {
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    border-radius: 15px;
+    padding:8px;
+}
+div {
+    background-color: #003366;
+    font-family:'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    position: absolute;
+    top:52%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+p a{
+    text-decoration: none;
+    color: #ffffff
+}
+
+input {
+    padding: 15px;
+    border:none;
+    outline: none;
+    font-size: 15px;
+    background-color: white;
+}
+button {
+    background-color: #ffffff;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor:pointer;
+    text-align: center;
+}
+button:hover {
+    background-color: whitesmoke;
+}
+p{
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+    font-size: 12px;
+}
+footer {
+    font-family: 'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif'; 
+    text-align: center;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 12px; 
+    font-size: 15px; 
+    width: 100%;
+    position: fixed; 
+    bottom: 0;
+    line-height: 13px;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    header {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    input, button {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    header {
+        font-size: 1.2rem;
+    }
+
+    input, button {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
